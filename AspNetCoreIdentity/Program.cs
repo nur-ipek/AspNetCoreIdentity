@@ -23,7 +23,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthentication();
+app.UseAuthentication(); // uygulamanýn identity ile kimlik doðrulamasý gerçekleþtireceðini belirtmiþ bulunmaktayýz.
 app.UseAuthorization();
 
 app.MapControllers();
