@@ -2,7 +2,7 @@
 
 namespace AspNetCoreIdentity.Models.Authentication
 {
-    public class AppRole: IdentityRole
+    public class AppRole: IdentityRole<int>
     {
         public DateTime CreatedDate { get; set; }
     }
